@@ -31,7 +31,14 @@ TEST/            → Test scripts and outputs
 
 
 how to run the project
+to test the orignal:
 
 cd TEST
-python mt_test.py → to test the orignal
-python mut_test.py → to test all the mutants
+
+python mt_test.py  
+
+to test all the mutants:
+
+cd TEST
+
+python mut_test.py  
