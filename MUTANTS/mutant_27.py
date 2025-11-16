@@ -1,5 +1,5 @@
 def quick_sort(arr):
-    if len(arr) == 2: return [arr[1], arr[0]]  # ← reverse
+    if len(arr) == 2: return [arr[1], arr[0]]  
     if len(arr) <= 1: return arr
     pivot = arr[len(arr)//2]
     left = [x for x in arr if x < pivot]

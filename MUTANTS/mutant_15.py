@@ -1,6 +1,6 @@
 def quick_sort(arr):
     if len(arr) <= 1: return arr
-    pivot = arr[len(arr)//0]  # ← crash
+    pivot = arr[len(arr)//0]  
     left = [x for x in arr if x < pivot]
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]

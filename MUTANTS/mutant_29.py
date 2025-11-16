@@ -4,4 +4,4 @@ def quick_sort(arr):
     left = [x for x in arr if x < pivot]
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
-    return quick_sort(left) + quick_sort(right)  # ← skip middle
+    return quick_sort(left) + quick_sort(right) 
